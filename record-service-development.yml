@@ -1,0 +1,12 @@
+spring:
+  data:
+    redis:
+      host: 'localhost'
+      port: 6379
+  r2dbc:
+    url: "r2dbc:postgresql://localhost:54321/"
+    name: "user"
+    username: "postgres"
+    password: "postgres"
+    pool:
+      enabled: true
