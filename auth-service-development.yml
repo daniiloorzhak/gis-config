@@ -1,4 +1,7 @@
 spring:
+  data:
+    redis:
+      repositories: true
   jpa:
     defer-datasource-initialization: true
   r2dbc:
