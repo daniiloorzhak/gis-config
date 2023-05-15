@@ -3,7 +3,7 @@ spring:
     defer-datasource-initialization: true
   r2dbc:
     url: 'r2dbc:postgresql://localhost:54321/'
-    name: 'record'
+    name: 'records'
     username: 'postgres'
     password: 'postgres'
     pool:
