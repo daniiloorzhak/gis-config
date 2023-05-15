@@ -1,5 +1,7 @@
 spring:
   jpa:
+    hibernate:
+      ddl-auto: none
     defer-datasource-initialization: true
   r2dbc:
     url: "r2dbc:postgresql://localhost:54322/"
@@ -8,6 +10,10 @@ spring:
     password: "postgres"
     pool:
       enabled: true
+  sql:
+    init:
+      mode: always
+
 eureka:
   client:
     serviceUrl:
