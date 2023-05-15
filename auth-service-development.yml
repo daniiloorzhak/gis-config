@@ -1,8 +1,8 @@
 spring:
   r2dbc:
-    url: "r2dbc:postgresql://localhost:54322/user"
-    username: "postgres"
-    password: "postgres"
+    url: 'r2dbc:postgresql://localhost:54322/user'
+    username: 'postgres'
+    password: 'postgres'
 eureka:
   client:
     serviceUrl:

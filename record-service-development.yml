@@ -2,10 +2,10 @@ spring:
   jpa:
     defer-datasource-initialization: true
   r2dbc:
-    url: "r2dbc:postgresql://localhost:54321/"
-    name: "record"
-    username: "postgres"
-    password: "postgres"
+    url: 'r2dbc:postgresql://localhost:54321/'
+    name: 'record'
+    username: 'postgres'
+    password: 'postgres'
     pool:
       enabled: true
 eureka:
