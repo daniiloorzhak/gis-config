@@ -1,4 +1,7 @@
 spring:
+  redis:
+    host: 'localhost'
+    port: 6739
   r2dbc:
     url: 'r2dbc:postgresql://localhost:54322/'
     name: 'postgres'
