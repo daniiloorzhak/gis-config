@@ -4,6 +4,7 @@ spring:
     name: 'postgres'
     username: 'postgres'
     password: 'postgres'
+    initialization-mode: always
 eureka:
   client:
     serviceUrl:
